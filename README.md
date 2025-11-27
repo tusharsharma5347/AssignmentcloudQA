@@ -164,27 +164,3 @@ The tests will continue working as long as the **label text** remains the same (
 5. **Comprehensive Assertions** (multiple checks per test)
 6. **Clean Code Practices** (clear naming, comments, logging)
 
-## 💡 Best Practices Applied
-
-- ✅ Each test is independent and isolated
-- ✅ Browser is closed after each test (TearDown)
-- ✅ Explicit waits instead of Thread.Sleep
-- ✅ Meaningful assertion messages
-- ✅ Console output for debugging
-- ✅ Test categorization for selective execution
-- ✅ Automatic driver management (no manual downloads)
-
-## 🔧 Troubleshooting
-
-**Issue**: Tests fail with "element not found"
-- **Solution**: Increase timeout in ResilientLocator initialization
-
-**Issue**: ChromeDriver version mismatch
-- **Solution**: WebDriverManager handles this automatically, but ensure Chrome browser is up to date
-
-**Issue**: Tests run but browser doesn't appear
-- **Solution**: Remove headless mode arguments from ChromeOptions if added
-
-## 📝 License
-
-This is a demonstration project for CloudQA automation testing.
