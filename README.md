@@ -1,6 +1,6 @@
-# CloudQA Selenium Test Automation
+# CloudQA Assignment
 
-This project contains automated tests for the CloudQA practice form using C# and Selenium WebDriver with **resilient locator strategies** that remain stable even when HTML attributes or element positions change.
+This project contains CloudQA Assiment that has to be done by using using C# and Selenium WebDriver with **resilient locator strategies** that remain stable even when HTML attributes or element positions change. 
 
 ## 🎯 Test Coverage
 
