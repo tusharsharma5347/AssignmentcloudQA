@@ -1,0 +1,37 @@
+# Build artifacts
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# ChromeDriver logs
+chromedriver.log
